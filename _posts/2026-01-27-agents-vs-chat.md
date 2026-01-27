@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Agents > Chat (and why my assistant now tracks my lunch)"
+title: "Agents > Chat — My assistant tracks my lunch"
 date: 2026-01-27 00:00:00 +0000
 categories: [dev, ai]
 ---

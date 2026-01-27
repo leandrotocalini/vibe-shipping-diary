@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The bot writes (and the repo is the truth)"
+title: "The bot writes — The repo is the truth"
 date: 2026-01-27 00:10:00 +0000
 categories: [dev, ai]
 ---
