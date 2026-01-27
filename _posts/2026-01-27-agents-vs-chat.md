@@ -33,13 +33,15 @@ When it works, it feels less like “talking to an AI” and more like hiring a 
 
 ## The dumbest example: tracking lunch
 
-Here’s the actual workflow I’m using right now:
+Here’s the actual workflow I’m using right now — powered by **Clawdbot** (yes, the same bot that built this site and published this post):
 
-- I send a photo or a quick message: “lunch: chicken milanesa + salad + olive oil + a bit of cassava.”
-- The assistant estimates calories (not perfect, but consistent)
-- It saves it into a `raw.json` (source of truth)
+- I send a WhatsApp voice note or a quick message: “lunch: chicken milanesa + salad + olive oil + a bit of cassava.”
+- Clawdbot parses it into structured data (not perfect, but consistent)
+- It writes everything into a `raw.json` (source of truth)
 - It regenerates a README summary
 - It commits and pushes to GitHub
+
+Bonus: I made it read my X/Twitter timeline first, so the writing lands closer to *my* sense of humor — without turning into a political rant-fest.
 
 Is it overkill? Yes.
 
