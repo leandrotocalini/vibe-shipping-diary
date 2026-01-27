@@ -13,3 +13,7 @@ minima:
 
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
+
+# Custom theme tweaks
+include:
+  - assets
