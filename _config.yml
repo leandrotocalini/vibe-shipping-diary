@@ -1,0 +1,15 @@
+title: Vibe Shipping Diary
+description: "A dev in his 40s learning vibe coding, LLMs, agents — plus BJJ/training notes."
+url: "https://leandrotocalini.github.io"
+baseurl: "/vibe-shipping-diary"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: dark
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
