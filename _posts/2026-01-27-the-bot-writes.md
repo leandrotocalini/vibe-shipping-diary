@@ -95,7 +95,7 @@ This is the part where it stops being hype and becomes a habit.
 
 ```mermaid
 flowchart TD
-  A[WhatsApp\n(Hablo con el bot por WhatsApp)] --> B[Alfred (Clawdbot)]
+  A[WhatsApp\n(I talk to the bot here)] --> B[Alfred (Clawdbot)]
   B --> C[Draft post in Markdown]
   C --> C2[Iterate\n(rewrite sections, adjust tone, polish)]
   C2 --> C
