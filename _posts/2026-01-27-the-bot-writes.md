@@ -45,26 +45,23 @@ I want a workflow that reliably ships posts.
 
 ## The workflow (current version)
 
-Here’s what we do now:
+I like to think of this in two phases: **setup** (one-time) and the **posting loop** (repeatable).
 
-1) **Talk here.**
-   - We outline the post in a few messages.
-   - We keep the tone: humor, but no cheap insults. No obvious politics.
+### Phase 1 — Setup (one-time)
 
-2) **Voice calibration.**
-   - Clawdbot reads my recent X/Twitter posts.
-   - It builds a small “voice guide” (patterns, pacing, phrases).
-   - The goal isn’t mimicry — it’s consistency.
+1) **WhatsApp.** I tell the bot: “Let’s build a blog.”
+2) **Repo.** It creates the GitHub repo and gets GitHub Pages/Jekyll working.
+3) **Iteration.** We tweak the look and the rules (theme, sections, what we do/don’t say).
+4) **Voice calibration.** It reads my X/Twitter posts and builds a small voice guide.
+5) **Done.** From that point on, it can write in my vibe without re-training every time.
 
-3) **Write a draft in Markdown.**
-   - Title + frontmatter.
-   - Short, tight sections.
+### Phase 2 — The posting loop (repeatable)
 
-4) **Commit & push to GitHub.**
-   - The repo becomes the canonical version.
-   - Version history is a feature, not a bug.
-
-5) **GitHub Pages deploys automatically.**
+1) **WhatsApp.** We iterate on the content here.
+2) **Markdown draft.** The bot turns it into a post using the saved voice guide.
+3) **Commit + push.** Git becomes the source of truth.
+4) **Deploy.** GitHub Actions builds the site and GitHub Pages publishes it.
+5) **Feedback.** I read it on my phone, adjust, repeat.
    - No “publish” button.
    - Shipping is just pushing.
 
