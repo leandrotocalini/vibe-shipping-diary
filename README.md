@@ -1,2 +1,6 @@
-# vibe-shipping-diary
-A dev in his 40s learning vibe coding, LLMs, agents — plus BJJ/training notes.
+# Vibe Shipping Diary
+
+Personal blog (Jekyll + Chirpy) published via GitHub Pages.
+
+- Site: https://leandrotocalini.github.io/vibe-shipping-diary/
+- Theme: https://github.com/cotes2020/jekyll-theme-chirpy
