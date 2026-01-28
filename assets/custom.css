@@ -1,17 +1,17 @@
 /* Vibe Shipping Diary theme tweaks (minima + dark) */
 
 :root {
-  --vibe-bg: #070812;
-  --vibe-panel: #0c1024;
-  --vibe-text: #e8e8ff;
-  --vibe-muted: #aab;
-  --vibe-accent: #7c4dff; /* purple */
-  --vibe-accent2: #2d8cff; /* blue */
+  --vibe-bg: #050509;       /* near-black */
+  --vibe-panel: #0b0b12;    /* dark charcoal */
+  --vibe-text: #f2f2f5;
+  --vibe-muted: #a3a3ad;
+  --vibe-accent: #7c4dff;   /* purple */
+  --vibe-accent2: #b388ff;  /* soft lavender */
 }
 
 body {
-  background: radial-gradient(1200px 700px at 20% 10%, rgba(124,77,255,0.18), transparent 60%),
-              radial-gradient(900px 600px at 80% 20%, rgba(45,140,255,0.16), transparent 55%),
+  background: radial-gradient(1100px 650px at 20% 10%, rgba(124,77,255,0.14), transparent 60%),
+              radial-gradient(900px 600px at 75% 15%, rgba(179,136,255,0.10), transparent 55%),
               var(--vibe-bg);
   color: var(--vibe-text);
 }
@@ -26,16 +26,16 @@ a:hover { filter: brightness(1.15); }
 
 /* cards */
 .post, .home {
-  background: rgba(12,16,36,0.55);
-  border: 1px solid rgba(124,77,255,0.18);
+  background: rgba(11,11,18,0.72);
+  border: 1px solid rgba(124,77,255,0.20);
   border-radius: 14px;
   padding: 1.1rem 1.2rem;
 }
 
 /* code blocks */
 pre, code {
-  background: rgba(12,16,36,0.9);
-  border: 1px solid rgba(45,140,255,0.25);
+  background: rgba(11,11,18,0.92);
+  border: 1px solid rgba(124,77,255,0.22);
 }
 
 /* headings */
