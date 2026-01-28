@@ -59,9 +59,10 @@ I like to think of this in two phases: **setup** (one-time) and the **posting lo
 
 1) **WhatsApp.** We iterate on the content here.
 2) **Markdown draft.** The bot turns it into a post using the saved voice guide.
-3) **Commit + push.** Git becomes the source of truth.
-4) **Deploy.** GitHub Actions builds the site and GitHub Pages publishes it.
-5) **Feedback.** I read it on my phone, adjust, repeat.
+3) **Iteration.** We do a few passes: rewrite sections, tweak pacing, swap titles, clean up the diagram — until it feels right.
+4) **Commit + push.** Git becomes the source of truth.
+5) **Deploy.** GitHub Actions builds the site and GitHub Pages publishes it.
+6) **Feedback.** I read it on my phone, adjust, repeat.
    - No “publish” button.
    - Shipping is just pushing.
 
@@ -96,7 +97,9 @@ This is the part where it stops being hype and becomes a habit.
 flowchart TD
   A[WhatsApp\n(Hablo con el bot por WhatsApp)] --> B[Alfred (Clawdbot)]
   B --> C[Draft post in Markdown]
-  C --> D[Commit + push to GitHub]
+  C --> C2[Iterate\n(rewrite sections, adjust tone, polish)]
+  C2 --> C
+  C2 --> D[Commit + push to GitHub]
   D --> E[GitHub Actions builds Jekyll]
   E --> F[GitHub Pages deploy]
   F --> G[You read it on your phone]
