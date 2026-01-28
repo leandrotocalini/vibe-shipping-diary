@@ -7,6 +7,12 @@ categories: [dev, ai]
 tags: [writing, workflow, git]
 ---
 
+This is a practical write-up of the workflow I’m using to turn messy voice notes into published posts with Clawdbot.
+
+The trick is intentionally boring: treat writing like shipping code. The repo is the source of truth, and the bot is just another contributor.
+
+I split it into 'Blog setup' and 'Post creation & updates'.
+
 If you’re reading this, it means two things happened:
 
 1) I gave a bot access to my GitHub.
@@ -45,9 +51,9 @@ I want a workflow that reliably ships posts.
 
 ## The workflow (current version)
 
-I like to think of this in two phases: setup (one-time) and the posting loop (repeatable).
+I like to think of this in two parts: blog setup and post creation & updates.
 
-### Phase 1 — Setup (one-time)
+## Blog setup
 
 I came in with the most boring plan on earth: “Let’s make a GitHub Pages blog.” No platform drama, no new accounts, no fancy CMS. Just a repo and a URL.
 
@@ -59,7 +65,7 @@ The last step was voice. I told the bot: “Before you write, read me.” It pul
 
 After that, the system was ready. Repo is the source of truth. Deploy is automatic. The only remaining input is… me talking.
 
-### Phase 2 — The posting loop (repeatable)
+## Post creation & updates
 
 The loop is intentionally simple. I talk to the bot on WhatsApp, usually in messy half-sentences, and we shape it into something readable. The iteration part is the point: we rewrite paragraphs, swap titles, cut filler, and keep going until it feels like a post I’d stand behind.
 
