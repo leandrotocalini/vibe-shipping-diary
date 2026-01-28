@@ -19,8 +19,6 @@ I wanted a place to keep a record of the stuff I’m building, learning, and stu
 
 To keep it simple, I split the whole thing into two parts: **Blog setup** and **Post creation & updates**. One gets the machine running. The other is where the work actually happens.
 
-## The workflow (current version)
-
 ## Blog setup
 
 I came in with the most boring plan on earth: “Let’s make a GitHub Pages blog.” No platform drama, no new accounts, no fancy CMS. Just a repo and a URL.
