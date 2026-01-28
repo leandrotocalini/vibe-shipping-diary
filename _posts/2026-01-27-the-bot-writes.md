@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The bot writes — The repo is the truth"
+title: "I talk. My bot composes."
 date: 2026-01-27 00:10:00 +0000
 author: leandrotocalini
 categories: [dev, ai]
