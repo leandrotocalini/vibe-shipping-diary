@@ -7,34 +7,17 @@ categories: [dev, ai]
 tags: [writing, workflow, git]
 ---
 
-This is a practical write-up of the workflow I’m using to turn messy voice notes into published posts with Clawdbot.
+This weekend, Clawdbot basically showed up all over my timeline like a new band everyone suddenly “discovered.” Same energy: clips, screenshots, hot takes, and people casually claiming it changed their workflow in 30 minutes.
 
-The trick is intentionally boring: treat writing like shipping code. The repo is the source of truth, and the bot is just another contributor.
+So I installed it.
 
-I split it into 'Blog setup' and 'Post creation & updates'.
+Not in the “I tested it for five minutes” way. In the “fine, take the wheel—let’s see if you can actually ship” way. And honestly? I’m still in that early stage of wonder where you keep finding one more thing it can do and your brain quietly files it under: *I should’ve done this sooner.*
 
-If you’re reading this, it means two things happened:
+That’s why this blog exists.
 
-1) I gave a bot access to my GitHub.
-2) It didn’t immediately delete everything.
+I wanted a place to keep a record of the stuff I’m building, learning, and stubbornly trying to improve—LLMs, vibe shipping, a bit of training, a bit of life logistics—without turning it into a polished personal brand project. More like a logbook. Something I can look back on in a month and say: “Yeah, that’s when it clicked.”
 
-Small wins.
-
-More specifically: I created a private GitHub organization for personal work, added **Clawdbot** to it, and told it to do something that sounds simple but is deceptively hard:
-
-> “Read my tweets and write like me.”
-
-Not *exactly* like me (that would be a crime against punctuation), but close enough that the jokes land.
-
-This is the part that matters:
-
-**the repo is the source of truth.**
-
-Not a note app. Not a magical chat transcript. Not a pile of screenshots.
-
-A repo.
-
-That’s how this blog exists.
+To keep it simple, I split the whole thing into two parts: **Blog setup** and **Post creation & updates**. One gets the machine running. The other is where the work actually happens.
 
 ## Linking the first post to the process
 
