@@ -7,47 +7,47 @@ categories: [dev, ai]
 tags: [agents, chat, automation]
 ---
 
-I didn’t wake up one day and decide to become an “AI guy.”
+I didn’t wake up one day and decide to become “an AI guy.”
 
-I just wanted two boring things:
+I just wanted two painfully normal things: ship faster, and lose a bit of weight without turning my life into a full-time accounting job.
 
-1) ship faster
-2) lose a bit of weight without turning my life into a spreadsheet
+Somewhere between those two goals, I ended up with an assistant that can read my calendar, log what I eat, and gently remind me that “a handful of peanuts” is not a unit of measurement recognized by science.
 
-Somewhere between those two goals, I ended up building an assistant that reads my calendar, nags me about peanuts, and makes me realize something important:
+That’s when it clicked for me:
 
-**Agents aren’t chat.** They’re outcomes.
+**Agents aren’t chat. They’re outcomes.**
 
-## The moment it clicked
+## Blog setup
 
-Chat is fun. You ask questions, it answers. Cool. Useful.
+Chat is great. You ask a question, you get an answer, you feel productive, you close the tab… and your life stays exactly the same unless you do the follow-up work.
 
-But chat is also… slippery. You finish the conversation and nothing in your life changed unless you changed it.
+An agent is built for the follow-up.
 
-An agent is the opposite. The whole point is that something happens *outside the chat window*:
+The whole point is that something happens *outside* the conversation:
 
-- a file gets created
-- a script runs
-- a reminder shows up at the right time
-- a report lands in your inbox
+A file gets created. A script runs. A reminder shows up at the right time. A repo changes. You get a result you can point at.
 
-When it works, it feels less like “talking to an AI” and more like hiring a tiny, tireless intern who never forgets.
+When it works, it doesn’t feel like “talking to an AI.” It feels like having a tiny intern who never forgets what you said, never loses the to-do list, and (conveniently) doesn’t need a chair.
 
-## The dumbest example: tracking lunch
+That framing is basically how this blog exists, too. I’m trying to build systems where the “truth” lives somewhere solid (usually git), and the assistant is a contributor to that system—not a magic chat transcript I’ll never read again.
 
-Here’s the actual workflow I’m using right now — powered by **Clawdbot** (yes, the same bot that built this site and published this post).
+## Post creation & updates
 
-I even made it read my X/Twitter timeline first, so the writing lands closer to *my* sense of humor.
+The dumbest example is also the most honest one: lunch tracking.
 
-- I send a WhatsApp voice note or a quick message: “lunch: chicken milanesa + salad + olive oil + a bit of cassava.”
-- Clawdbot parses it into structured data (not perfect, but consistent)
-- It writes everything into a `raw.json` (source of truth)
-- It regenerates a README summary
-- It commits and pushes to GitHub
+Here’s what I’m using right now, powered by **Clawdbot** (yes, the same bot that helped build this site and is perfectly capable of judging my olive oil choices in public).
 
-Is it overkill? Yes.
+I send a WhatsApp voice note or a quick message like:
 
-Is it weirdly motivating to see your day show up as data + a clean changelog? Also yes.
+“Lunch: chicken milanesa + salad + olive oil + a bit of cassava.”
+
+Then the agent does the boring, repeatable stuff:
+
+It parses the message into structured data (not perfect, but consistent). It writes it into a `raw.json` as the source of truth. It regenerates a summary. It commits and pushes.
+
+Is it overkill? Absolutely.
+
+Is it weirdly motivating to see your day show up as clean data and a neat changelog? Also yes.
 
 And the important part isn’t calories.
 
@@ -55,35 +55,12 @@ It’s the pattern:
 
 **input → structure → automation → feedback loop**
 
-That’s what “agents” really are.
+That’s what I mean by “agents.” Not vibes, not clever prompts—just reliable loops that turn intent into artifacts.
 
-## What I’m actually learning at 40
+At 40, I’m not trying to become a full-time prompt poet. I’m learning a new style of building: small scripts, fast iterations, and letting the model do the annoying parts while I keep the truth in a repo.
 
-I’m not trying to become a full-time prompt poet.
+Next I want the assistant to generate weekly summaries (weight trend vs. food logs), keep a lightweight voice guide so my writing stays consistent, and help me ship small tools on a schedule.
 
-I’m learning a new style of building:
+And yes, I’m also doing jiu jitsu—because nothing keeps you honest like getting folded in half by someone 20kg lighter.
 
-- tiny scripts
-- fast iterations
-- let the model do the annoying parts
-- keep the truth in a repo
-
-I call it *vibe shipping*.
-
-Not because vibes write code.
-
-Because shipping is the only thing that makes the vibes real.
-
-## What’s next
-
-Next, I want the assistant to:
-
-- generate weekly summaries (weight trend vs calories)
-- keep a lightweight “voice guide” so my writing stays consistent
-- help me ship small tools (and maybe the occasional dumb app) on a schedule
-
-And yes — I’m also doing jiu jitsu.
-
-Because nothing keeps you humble like getting folded in half by someone 20kg lighter.
-
-If you’re also learning this stuff mid-life: welcome. We’re late, but we’re on time.
+If you’re learning this stuff mid-life too: welcome. We’re late, but we’re on time.
