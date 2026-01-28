@@ -19,22 +19,7 @@ I wanted a place to keep a record of the stuff I’m building, learning, and stu
 
 To keep it simple, I split the whole thing into two parts: **Blog setup** and **Post creation & updates**. One gets the machine running. The other is where the work actually happens.
 
-## Linking the first post to the process
-
-In the first post, I wrote about how the “agents > chat” idea clicked for me.
-
-- An agent doesn’t just answer.
-- It *produces outcomes*.
-
-This is the same thing — applied to writing.
-
-I don’t want a model that can write a nice paragraph once.
-
-I want a workflow that reliably ships posts.
-
 ## The workflow (current version)
-
-I like to think of this in two parts: blog setup and post creation & updates.
 
 ## Blog setup
 
