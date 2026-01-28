@@ -85,12 +85,6 @@ What’s less common is building a system that:
 
 Basically: *treat writing like shipping.*
 
-If you want the starting point, read the first post:
-
-- [Agents > Chat (and why my assistant now tracks my lunch)]({% post_url 2026-01-27-agents-vs-chat %})
-
-Then come back here.
-
 This is the part where it stops being hype and becomes a habit.
 
 
