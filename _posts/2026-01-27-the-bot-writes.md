@@ -97,7 +97,7 @@ This is the part where it stops being hype and becomes a habit.
 
 ```mermaid
 flowchart TD
-  A[WhatsApp (I talk to the bot)] --> B[Alfred (Clawdbot)]
+  A[WhatsApp\n(Hablo con el bot por WhatsApp)] --> B[Alfred (Clawdbot)]
   B --> C[Draft post in Markdown]
   C --> D[Commit + push to GitHub]
   D --> E[GitHub Actions builds Jekyll]
