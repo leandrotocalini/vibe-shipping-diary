@@ -91,3 +91,17 @@ If you want the starting point, read the first post:
 Then come back here.
 
 This is the part where it stops being hype and becomes a habit.
+
+
+## The loop
+
+```mermaid
+flowchart TD
+  A[WhatsApp message / voice note] --> B[Alfred (Clawdbot)]
+  B --> C[Draft post in Markdown]
+  C --> D[Commit + push to GitHub]
+  D --> E[GitHub Actions builds Jekyll]
+  E --> F[GitHub Pages deploy]
+  F --> G[You read it on your phone]
+  G --> A
+```
