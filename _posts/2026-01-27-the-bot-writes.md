@@ -45,30 +45,27 @@ I want a workflow that reliably ships posts.
 
 ## The workflow (current version)
 
-I like to think of this in two phases: **setup** (one-time) and the **posting loop** (repeatable).
+I like to think of this in two phases: setup (one-time) and the posting loop (repeatable).
 
 ### Phase 1 — Setup (one-time)
 
-1) **WhatsApp.** I tell the bot: “Let’s build a blog.”
-2) **Repo.** It creates the GitHub repo and gets GitHub Pages/Jekyll working.
-3) **Iteration.** We tweak the look and the rules (theme, sections, what we do/don’t say).
-4) **Voice calibration.** It reads my X/Twitter posts and builds a small voice guide.
-5) **Done.** From that point on, it can write in my vibe without re-training every time.
+I came in with the most boring plan on earth: “Let’s make a GitHub Pages blog.” No platform drama, no new accounts, no fancy CMS. Just a repo and a URL.
+
+Because the bot already had GitHub access, the first real decision wasn’t technical. It was identity. We threw names around until one felt like something I’d actually show to a friend: **Vibe Shipping Diary**. Once it had a name, it stopped being “a blog I might do” and became “a thing I’m building.”
+
+Then we did the small-but-important tradeoff: Jekyll versus the modern stack. Astro and Next are great, but I wanted maximum shipping and minimum babysitting. So we picked **Jekyll + GitHub Pages** on purpose. Boring is a feature when you’re trying to build a habit.
+
+The last step was voice. I told the bot: “Before you write, read me.” It pulled my recent posts via **bird**, extracted patterns, and built a tiny voice guide. Not to impersonate me, just to keep the writing consistent when I’m tired, distracted, or trying to do ten things at once.
+
+After that, the system was ready. Repo is the source of truth. Deploy is automatic. The only remaining input is… me talking.
 
 ### Phase 2 — The posting loop (repeatable)
 
-1) **WhatsApp.** We iterate on the content here.
-2) **Markdown draft.** The bot turns it into a post using the saved voice guide.
-3) **Iteration.** We do a few passes: rewrite sections, tweak pacing, swap titles, clean up the diagram — until it feels right.
-4) **Commit + push.** Git becomes the source of truth.
-5) **Deploy.** GitHub Actions builds the site and GitHub Pages publishes it.
-6) **Feedback.** I read it on my phone, adjust, repeat.
-   - No “publish” button.
-   - Shipping is just pushing.
+The loop is intentionally simple. I talk to the bot on WhatsApp, usually in messy half-sentences, and we shape it into something readable. The iteration part is the point: we rewrite paragraphs, swap titles, cut filler, and keep going until it feels like a post I’d stand behind.
 
-That’s it.
+Sometimes that means creating a brand-new post. Sometimes it means revisiting one that’s already live. I actually like that: publishing isn’t a final state, it’s just a snapshot. If a section is unclear, or the flow doesn’t land, we patch it and ship again. Git keeps the history honest.
 
-Low ceremony. High leverage.
+Once the draft is good, everything else is just a normal dev move: commit, push, and let the pipeline do the boring part. GitHub Actions builds the site, GitHub Pages deploys it, and I read it on my phone like any other reader. Then, inevitably, I find one sentence I want to rewrite — and the loop starts again.
 
 ## Why this feels different
 
@@ -91,17 +88,3 @@ Then come back here.
 This is the part where it stops being hype and becomes a habit.
 
 
-## The loop
-
-```mermaid
-flowchart TD
-  A[WhatsApp\n(I talk to the bot here)] --> B[Alfred (Clawdbot)]
-  B --> C[Draft post in Markdown]
-  C --> C2[Iterate\n(rewrite sections, adjust tone, polish)]
-  C2 --> C
-  C2 --> D[Commit + push to GitHub]
-  D --> E[GitHub Actions builds Jekyll]
-  E --> F[GitHub Pages deploy]
-  F --> G[You read it on your phone]
-  G --> A
-```
