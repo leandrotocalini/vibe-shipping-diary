@@ -1,0 +1,11 @@
+leandrotocalini:
+  name: Leandro Tocalini
+  bio: "Vibe shipping diary: shipping faster with agents + a bit of BJJ/training in the mix."
+  url: https://leandrotocalini.github.io/vibe-shipping-diary
+  links:
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/leandrotocalini
+    - label: LinkedIn
+      icon: fab fa-linkedin
+      url: https://www.linkedin.com/in/leandrotocalini

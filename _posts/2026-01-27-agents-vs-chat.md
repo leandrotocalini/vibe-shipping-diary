@@ -2,7 +2,9 @@
 layout: post
 title: "Agents > Chat — My assistant tracks my lunch"
 date: 2026-01-27 00:00:00 +0000
+author: leandrotocalini
 categories: [dev, ai]
+tags: [agents, chat, automation]
 ---
 
 I didn’t wake up one day and decide to become an “AI guy.”

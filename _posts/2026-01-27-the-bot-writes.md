@@ -2,7 +2,9 @@
 layout: post
 title: "The bot writes — The repo is the truth"
 date: 2026-01-27 00:10:00 +0000
+author: leandrotocalini
 categories: [dev, ai]
+tags: [writing, workflow, git]
 ---
 
 If you’re reading this, it means two things happened:
@@ -84,7 +86,7 @@ Basically: *treat writing like shipping.*
 
 If you want the starting point, read the first post:
 
-- [Agents > Chat (and why my assistant now tracks my lunch)]({{ '/dev/ai/2026/01/27/agents-vs-chat/' | relative_url }})
+- [Agents > Chat (and why my assistant now tracks my lunch)]({% post_url 2026-01-27-agents-vs-chat %})
 
 Then come back here.
 
