@@ -7,24 +7,46 @@ categories: [dev, ai]
 tags: [llms, agents, workflow, docs]
 ---
 
-I didn’t rewrite my `CLAUDE.md`. Claude Code did.
+I didn’t manually rewrite my `CLAUDE.md`.
 
-I gave it a single example of the kind of compression I wanted — a small before/after showing how to turn a paragraph into a constraint — and then I let it run. A while later I had the same document, but at a completely different density: the fluff gone, the intent sharper, the operating rules easier to execute than to debate.
+Claude Code did — after I gave it a single example of the compression style I wanted.
 
-The obvious win is token overhead. Smaller context means faster sessions and less pressure on the window as a conversation grows. But that’s not the part that surprised me. What surprised me is that it didn’t feel like summarization. It felt like refactoring.
+The example was basically: take a long “policy paragraph” and turn it into a short constraint that still changes behavior. Something like: *don’t explain everything — encode the trigger and the rule.*
 
-I used to treat agent docs like human docs: explain the reasoning, write the why, be generous with nuance. That instinct is polite — and often wrong. An agent doesn’t need persuasion. It needs triggers, constraints, defaults, and pointers to canonical places in the repo. When you give it paragraphs, you’re not giving it clarity. You’re giving it surface area.
+Then I told it to apply that pattern everywhere.
 
-A few hours after the compression, I did the most boring test I could think of: I pulled `main` and read the repo the way an agent would. The difference was immediate. The new `CLAUDE.md` didn’t read like a document. It read like a control panel. Short cues. Sharp constraints. Clear “where things live.” Fewer places to hide ambiguity.
+The result was… aggressive:
 
-One small example: in my Aurum repo I’ve accumulated a handful of “workflow documents” over time — not because I love documentation, but because I’m trying to make the loop cheap. There’s `CLAUDE.md` for conventions, `ROADMAP.md` for committed milestones, `OPEN_TASKS.md` for the active checklist, and `BRAINSTORMING.md` as a scratchpad where ideas can live without becoming commitments. There are integration test scripts under `integration_tests/` so “does this still work?” is a command, not a mood. There are planning branches that merge into `main` when the plan is clear, and feature branches that ship as PRs when the work is real.
+- 1525 lines → 368 lines (**-75.9%**)
+- Estimated token overhead: ~15,000 → ~5,000 (**~ -67%**)
 
-When `CLAUDE.md` was bloated, those files existed, but the system felt harder to operate. After compression, the same repo felt more legible: less debate about process, more obvious defaults. It also exposed something else: documentation isn’t just information, it’s an interface to a workflow. Once the rules were compressed, the process became easier to see. Instead of everything being “source of truth,” the repo naturally wanted a single active place for current work, and a simpler rule for when roadmap/status should change. It’s hard to explain, but it’s the same feeling you get after deleting a bunch of dead code: the system becomes more legible.
+## What I actually asked it to do
 
-The most interesting part, though, was how little I had to specify. I didn’t micromanage every section. I provided one exemplar — one demonstration of what “good compression” looks like — and the agent generalized it across the document. That feels like a new kind of leverage. You’re not rewriting the rules; you’re rewriting the pattern of the rules and letting the agent apply it everywhere.
+Not “summarize this document.”
 
-There is a risk here. Compression can delete nuance, and nuance sometimes prevents expensive mistakes. The fix isn’t to keep your `CLAUDE.md` bloated “just in case.” The fix is to pair a tight instruction set with a workflow that catches the important failures: tests by default, integration checks for the scary paths, and explicit pre-deploy guardrails. Short rules are fine as long as reality is still your reviewer.
+More like: *refactor the instruction set.*
 
-I used to think the main benefit of agents was speed — generating code faster. Now I think the deeper benefit is consistency: taking a single good pattern and applying it everywhere, across code and process. Compression was the first time I felt that advantage in a non-flashy way.
+Keep the critical rules, delete the speeches, compress to signals:
+
+- triggers (“if X, do Y”)
+- constraints (“never do Z”)
+- defaults (“prefer A”)
+- pointers (“the canonical file is here”)
+
+In other words: make it executable.
+
+## Why the reduction is the point (not the flex)
+
+Yes, fewer tokens is nice. But the bigger win is **less ambiguity**.
+
+A bloated `CLAUDE.md` doesn’t just cost tokens — it dilutes attention. Everything looks equally important, so the agent (and future me) can’t tell what matters in the moment. It becomes a messy attic of “rules.”
+
+After compression, it reads like a control panel. It’s easier to follow, easier to trust, and harder to misinterpret.
+
+## The takeaway
+
+I used to think agents were mainly about generating code faster.
+
+Now I think the real advantage is that they can take one good pattern — one clean example of how you want things done — and apply it everywhere, consistently.
 
 Constraints are the new code.
