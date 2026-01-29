@@ -43,6 +43,14 @@ A bloated `CLAUDE.md` doesn’t just cost tokens — it dilutes attention. Every
 
 After compression, it reads like a control panel. It’s easier to follow, easier to trust, and harder to misinterpret.
 
+## What not to do
+
+Compression can backfire if you use it to erase *knowledge*.
+
+A good example of the failure mode is "context collapse": you start with concrete, testable rules, then you keep rewriting them until they degrade into generic advice ("write quality code"). It’s tidy, but it’s worse than useless — because you silently lose the details that actually made the workflow reliable.
+
+The safer approach is: compress prose, not domain knowledge. Keep defaults short, but treat hard-won lessons as append-only, itemized playbook entries (ideally with IDs and clear "when to apply" conditions).
+
 ## The takeaway
 
 I used to think agents were mainly about generating code faster.
