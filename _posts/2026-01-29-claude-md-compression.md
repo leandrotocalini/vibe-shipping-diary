@@ -51,6 +51,13 @@ A good example of the failure mode is "context collapse": you start with concret
 
 The safer approach is: compress prose, not domain knowledge. Keep defaults short, but treat hard-won lessons as append-only, itemized playbook entries (ideally with IDs and clear "when to apply" conditions).
 
+For example, don’t let this:
+
+> "Validate `default_currency` against the whitelist (USD, ARS, PYG, EUR, BRL). Return HTTP 400 on invalid input. Include request_id in logs. Add integration tests for both valid and invalid cases."
+
+degrade into:
+
+> "Handle currency correctly. Add tests."
 ## The takeaway
 
 I used to think agents were mainly about generating code faster.
