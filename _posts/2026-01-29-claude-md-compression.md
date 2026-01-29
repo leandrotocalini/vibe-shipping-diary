@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Claude Code Compressed My CLAUDE.md (and It Changed the Loop)"
+title: "Claude Code compressed my CLAUDE.md"
 date: 2026-01-29 00:00:00 +0000
 author: Leandro Tocalini Joerg
 categories: [dev, ai]
