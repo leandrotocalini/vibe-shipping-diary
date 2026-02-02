@@ -13,7 +13,7 @@ The real leverage is in how you structure the work before the conversation start
 
 Over the past few weeks, I've been building an iOS app with an LLM agent doing most of the implementation. Not as a copilot suggesting lines while I type, but as something closer to a remote junior developer: I describe what needs to happen, it figures out the code, runs the tests, commits it, pushes the branch, and moves on to the next thing. I review in the morning.
 
-The setup is a bit unusual. I have two agents working together. One lives on my phone — a WhatsApp bot I use to think out loud, define milestones, and manage the roadmap from wherever I am. The other runs on my Mac — a coding agent that reads the repo, writes the code, and executes the overnight runs. When I'm on the couch sketching out a feature in voice notes, the first agent turns that into a structured milestone. When I go to sleep, the second agent picks it up and implements it.
+The setup is a bit unusual. I have two agents working together. One is [Clawdbot](https://github.com/clawdbot/clawdbot), a WhatsApp bot I use to think out loud, define milestones, and manage the roadmap from wherever I am — the couch, a coffee shop, or while walking the dog. The other is [Claude Code](https://docs.anthropic.com/en/docs/claude-code), Anthropic's coding agent that runs on my Mac, reads the repo, writes the code, and executes the overnight runs. When I'm sketching out a feature in voice notes, Clawdbot turns that into a structured milestone in the roadmap. When I go to sleep, Claude Code picks it up and implements it.
 
 The surprising part wasn't that it worked — plenty of people have shown agents writing code — it's that it worked *better* when I wasn't there to interfere.
 
