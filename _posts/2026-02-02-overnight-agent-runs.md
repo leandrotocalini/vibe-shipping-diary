@@ -11,7 +11,7 @@ I used to think the hard part of working with agents was prompting. Get the word
 
 The real leverage is in how you structure the work before the conversation starts.
 
-Over the past few weeks, I've been building an iOS app with an LLM agent doing most of the implementation. Not as a copilot suggesting lines while I type, but as something closer to a remote junior developer: I describe what needs to happen, it figures out the code, runs the tests, commits it, pushes the branch, and moves on to the next thing. I review in the morning.
+Over the past few weeks, I've been building an iOS app in my spare time, with an LLM agent doing most of the implementation. Not as a copilot suggesting lines while I type, but as something closer to a remote junior developer: I describe what needs to happen, it figures out the code, runs the tests, commits it, pushes the branch, and moves on to the next thing. I review in the morning.
 
 The setup is a bit unusual. I have two agents working together. One is [Clawdbot](https://github.com/clawdbot/clawdbot), a WhatsApp bot I use to think out loud, define milestones, and manage the roadmap from wherever I am — the couch, a coffee shop, or while walking the dog. The other is [Claude Code](https://docs.anthropic.com/en/docs/claude-code), Anthropic's coding agent that runs on my Mac, reads the repo, writes the code, and executes the overnight runs. When I'm sketching out a feature in voice notes, Clawdbot turns that into a structured milestone in the roadmap. When I go to sleep, Claude Code picks it up and implements it.
 
