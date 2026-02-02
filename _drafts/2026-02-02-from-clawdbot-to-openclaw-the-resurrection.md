@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The resurrection folder"
+title: "From Clawdbot to OpenClaw: The resurrection"
 date: 2026-02-02 00:00:00 +0000
 author: Leandro Tocalini Joerg
 categories: [dev, ai]
