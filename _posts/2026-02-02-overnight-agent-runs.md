@@ -7,6 +7,8 @@ categories: [dev, ai]
 tags: [llms, agents, workflow, shipping]
 ---
 
+![Overnight agent runs](/assets/img/posts/overnight-agent-runs-hero.png)
+
 I used to think the hard part of working with agents was prompting. Get the words right, get the output right. It seemed like a skill you could grind: learn the tricks, master the phrasing, unlock the magic. And for quick tasks, that's mostly true. But for anything that spans more than a single conversation — a real project, with real scope — prompting turns out to be the least interesting part.
 
 The real leverage is in how you structure the work before the conversation starts.

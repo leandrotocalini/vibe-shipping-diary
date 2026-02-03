@@ -7,6 +7,8 @@ categories: [dev, ai]
 tags: [llms, agents, workflow, migration]
 ---
 
+![The resurrection](/assets/img/posts/resurrection-hero.png)
+
 Today I migrated my AI assistant from one framework to another. The old one was showing its age (it was two weeks old 😛), the new one had a new name — copyright issues, nothing dramatic. Routine maintenance, really. Except for one thing: I asked the agent to plan its own migration.
 
 Not as a joke. As a workflow.
