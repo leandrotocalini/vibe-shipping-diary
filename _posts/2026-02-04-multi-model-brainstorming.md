@@ -13,7 +13,9 @@ I ran an experiment: given identical context and the same open-ended prompt, I a
 
 ## The Setup
 
-Same prompt to all three. Same context. No leading questions. Just: *"Give me 7 creative ideas for X."*
+I used [OpenClaw](https://github.com/anthropics/openclaw) to orchestrate the experiment. My AI assistant—itself running on Claude—spawned three parallel sessions, one for each model. Same prompt. Same context. No leading questions. Just: *"Give me 7 creative ideas for X."*
+
+The irony isn't lost on me: an AI helping me compare AIs. But that's precisely the point. OpenClaw made it trivial to fan out the same task to multiple models and collect the results. What would have been tedious copy-paste across three browser tabs became a single command.
 
 The goal wasn't to find a "winner"—it was to see how different architectures and training approaches shape creative output.
 
@@ -50,3 +52,7 @@ I cherry-picked the best criteria from each model's output. The final specificat
 This isn't about finding the "best" model. It's about recognizing that different models have different strengths—and deliberately combining those strengths produces better results than optimizing for any single one.
 
 The overhead is minimal. The insight is significant.
+
+---
+
+*This experiment was orchestrated through OpenClaw, with my AI assistant handling the parallel model spawning, response collection, and initial merge suggestions. The whole process—from first prompt to final specifications—took about 30 minutes.*
