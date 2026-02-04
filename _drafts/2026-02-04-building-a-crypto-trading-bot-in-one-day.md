@@ -39,15 +39,7 @@ Four hours later, I had:
 - Paper trading mode
 - Fly.io deployment with status endpoint
 
-## The bugs were educational
-
-### The stablecoin ghost
-
-First deploy, the bot showed a "position" in USDCUSDT. But I never traded USDC — I just had some USDC in my wallet from a deposit.
-
-The bot was detecting any crypto balance as a "position to manage." Classic case of the bot being too clever. Fix: filter out stablecoins from position recovery.
-
-### Overbought markets don't care about your bot
+## The first night
 
 Deployed at night, excited to see it trade. Checked the logs:
 
