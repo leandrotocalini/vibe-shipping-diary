@@ -12,7 +12,7 @@ I wanted to text my phone and have Claude Code do the work. That's it. No contai
 
 I'd been using [OpenClaw](https://github.com/openclaw) for this — a full platform with container management, scheduled tasks, routing layers. Impressive engineering, but a massive attack surface. Things broke regularly. And the real killer was cost: OpenClaw calls the Claude API directly, so every token — even idle polling — goes through Anthropic's pricing. Claude Code runs through a Max subscription. Unlimited use, flat fee.
 
-The gap between what I needed and what existed was enormous. So I built **CodeButler** — a single Go binary that bridges WhatsApp and Claude Code. It took five architectural rewrites to get it right.
+The gap between what I needed and what existed was enormous. So I built [**CodeButler**](https://github.com/leandrotocalini/codebutler) — a single Go binary that bridges WhatsApp and Claude Code. It took five architectural rewrites to get it right.
 
 ## The File Protocol That Lasted Ten Minutes
 
