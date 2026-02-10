@@ -74,7 +74,7 @@ This means the active conversation always has priority. Queued messages often be
 
 Text worked perfectly. But WhatsApp isn't just text — people send voice messages. Especially from the couch, which is the whole point.
 
-The first voice message arrived as `[Voice Message]`. Claude responded: *"No puedo escuchar mensajes de voz."* Fair enough — Claude is a text model. But I can transcribe before Claude ever sees it.
+The first voice message arrived as `[Voice Message]`. Claude responded: *"I can't listen to voice messages."* Fair enough — Claude is a text model. But I can transcribe before Claude ever sees it.
 
 WhatsApp voice messages arrive as encrypted OGG audio. whatsmeow provides the decryption keys. The pipeline: download, decrypt, send to **OpenAI Whisper**, store the transcribed text in SQLite. By the time the daemon's poll loop sees it, it's just text. Claude never knows the difference.
 
