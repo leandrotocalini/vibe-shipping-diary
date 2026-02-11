@@ -5,6 +5,7 @@ date: 2026-02-02 00:00:00 +0000
 author: Leandro Tocalini Joerg
 categories: [dev, ai]
 tags: [llms, agents, workflow, shipping]
+image: /assets/img/posts/overnight-agent-runs-hero.png
 ---
 
 ![Overnight agent runs](/assets/img/posts/overnight-agent-runs-hero.png)

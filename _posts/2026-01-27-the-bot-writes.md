@@ -5,6 +5,7 @@ date: 2026-01-27 00:10:00 +0000
 author: leandrotocalini
 categories: [dev, ai]
 tags: [writing, workflow, git]
+image: /assets/img/posts/the-bot-writes-hero.png
 ---
 
 ![I talk, my bot composes](/assets/img/posts/the-bot-writes-hero.png)

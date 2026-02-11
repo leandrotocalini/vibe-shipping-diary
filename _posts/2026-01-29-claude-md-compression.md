@@ -5,6 +5,7 @@ date: 2026-01-29 00:00:00 +0000
 author: Leandro Tocalini Joerg
 categories: [dev, ai]
 tags: [llms, agents, workflow, docs]
+image: /assets/img/posts/claude-md-compression-hero.png
 ---
 
 ![Claude Code compressed my CLAUDE.md](/assets/img/posts/claude-md-compression-hero.png)

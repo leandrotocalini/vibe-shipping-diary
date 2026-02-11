@@ -5,6 +5,7 @@ date: 2026-01-28 00:00:00 +0000
 author: Leandro Tocalini Joerg
 categories: [dev, ai]
 tags: [llms, agents, building, workflow]
+image: /assets/img/posts/love-of-coding-hero.png
 ---
 
 ![Love of coding vs love of building](/assets/img/posts/love-of-coding-hero.png)

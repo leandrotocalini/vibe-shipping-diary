@@ -3,6 +3,7 @@ layout: post
 title: "Multi-Model Brainstorming: When Three AIs Are Better Than One"
 date: 2026-02-04 15:00:00 -0300
 categories: [ai, development]
+image: /assets/img/posts/multi-model-brainstorming-hero.png
 ---
 
 ![Multi-model brainstorming with three AI advisors](/assets/img/posts/multi-model-brainstorming-hero.png)
