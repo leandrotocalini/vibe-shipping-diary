@@ -5,7 +5,7 @@ description: "How CodeButler manages Claude sessions — continuation markers, i
 date: 2026-02-11 11:00:00 -0300
 categories: [dev, ai]
 tags: [agents, claude-code, go, whatsapp, codebutler]
-image: /assets/img/posts/codebutler-hero.png
+image: /assets/img/posts/codebutler-sessions-hero.jpg
 ---
 
 The first version of CodeButler spawned `claude -p` with `--max-turns 10` and waited for it to finish. Simple, but the user saw nothing until Claude was done — which could take minutes on a complex task. And sessions grew forever, making each `--resume` slower as the context accumulated.
