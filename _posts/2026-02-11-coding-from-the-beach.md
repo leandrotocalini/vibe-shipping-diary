@@ -5,6 +5,7 @@ description: "Three CodeButler daemons, one phone, and a bug fix deployed from a
 date: 2026-02-11 14:00:00 -0300
 categories: [dev, ai]
 tags: [agents, claude-code, go, whatsapp, codebutler]
+image: /assets/img/posts/coding-from-the-beach-hero.jpg
 ---
 
 I'm on the beach. Back home, my Mac has three [CodeButler](https://github.com/leandrotocalini/codebutler) daemons running — one for the iOS app, one for the backend API, one for CodeButler itself. Three terminals in a `while true` loop, three WhatsApp groups on my phone.
