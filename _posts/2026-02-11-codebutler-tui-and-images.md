@@ -5,7 +5,7 @@ description: "Adding a local TUI input and bidirectional image support to CodeBu
 date: 2026-02-11 10:00:00 -0300
 categories: [dev, ai]
 tags: [agents, claude-code, go, whatsapp, codebutler]
-image: /assets/img/posts/codebutler-hero.png
+image: /assets/img/posts/codebutler-tui-hero.jpg
 ---
 
 CodeButler started as a WhatsApp-to-Claude bridge. Messages go in from the phone, Claude does the work, results come back. But I kept switching to WhatsApp just to type "run the tests" — even though I was sitting right at the terminal where the daemon was running.
