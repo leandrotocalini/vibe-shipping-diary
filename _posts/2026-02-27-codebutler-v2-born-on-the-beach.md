@@ -2,7 +2,7 @@
 layout: post
 title: "I Broke CodeButler on Vacation. Then I Redesigned It From a Beach Towel."
 description: "A failed Slack migration, a dead daemon, and two weeks of specs written without a laptop — how CodeButler v2 became a multi-agent team."
-date: 2026-02-27 12:00:00 -0300
+date: 2026-02-27 00:00:00 -0300
 categories: [dev, ai]
 tags: [agents, codebutler, go, slack, multi-agent, architecture]
 image: /assets/img/posts/codebutler-v2-beach-hero.jpeg
