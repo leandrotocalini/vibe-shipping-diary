@@ -8,7 +8,9 @@ tags: [agents, codebutler, go, slack, multi-agent, architecture]
 image: /assets/img/posts/codebutler-v2-beach-hero.jpeg
 ---
 
-Two weeks ago I was in Brazil with no laptop and a dead tool.
+These are strange weeks to take a vacation. Every day there's a new model, a new agent framework, a new thing that makes yesterday's architecture feel obsolete. Taking two weeks off from AI right now feels like stepping away from a river that's accelerating. But we'd been planning this family trip for months — long before the pace got this insane — and some things you don't reschedule.
+
+So I went to Brazil. No laptop, no terminal, just a phone and a beach towel. And a dead tool.
 
 [CodeButler](https://github.com/leandrotocalini/codebutler) — the WhatsApp-to-Claude-Code bridge I'd been running for weeks — had been working perfectly. Three daemons, three repos, three WhatsApp groups. I was coding from the beach, fixing bugs from the couch, shipping features from my phone. I'd even turned off [OpenClaw](https://github.com/openclaw) because Butler was enough. One Go binary, zero idle cost, flat-rate Claude Code subscription. Why run anything else?
 
