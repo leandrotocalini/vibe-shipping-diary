@@ -82,6 +82,8 @@ If a process dies, the others keep working. When it comes back, it reads its act
 
 I finished the specs on the beach. Fifty pages of architecture, workflows, agent designs, memory systems, tool classifications, conflict coordination, and migration paths. Every section written on a phone, revised on a phone, argued with myself on a phone.
 
-Tomorrow is Saturday. I get home. Claude Code gets the specs.
+Then I fed them to Claude Code — from the phone. No laptop, no terminal, just the specs as input and Claude Code on the web doing what it does. By the time I was packing my bags, the new CodeButler was already taking shape. Agents, tools, Slack integration, memory system — all being built while I was still in Brazil.
+
+Saturday I get home. I install it on my machine. Six services, auto-restart, ready to go.
 
 This version is going to be good.
