@@ -8,7 +8,6 @@ tags: [writing, workflow, git]
 image: /assets/img/posts/the-bot-writes-hero.png
 ---
 
-![I talk, my bot composes](/assets/img/posts/the-bot-writes-hero.png)
 
 This weekend, Clawdbot basically showed up all over my timeline like a new band everyone suddenly “discovered.” Same energy: clips, screenshots, hot takes, and people casually claiming it changed their workflow in 30 minutes.
 

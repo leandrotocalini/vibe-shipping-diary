@@ -6,7 +6,6 @@ categories: [ai, development]
 image: /assets/img/posts/multi-model-brainstorming-hero.png
 ---
 
-![Multi-model brainstorming with three AI advisors](/assets/img/posts/multi-model-brainstorming-hero.png)
 
 What happens when you ask the same creative question to three different AI models simultaneously?
 

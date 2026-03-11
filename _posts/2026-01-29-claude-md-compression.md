@@ -8,7 +8,6 @@ tags: [llms, agents, workflow, docs]
 image: /assets/img/posts/claude-md-compression-hero.png
 ---
 
-![Claude Code compressed my CLAUDE.md](/assets/img/posts/claude-md-compression-hero.png)
 
 I didn't manually rewrite my `CLAUDE.md`.
 

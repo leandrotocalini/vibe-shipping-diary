@@ -8,7 +8,6 @@ tags: [llms, agents, building, workflow]
 image: /assets/img/posts/love-of-coding-hero.png
 ---
 
-![Love of coding vs love of building](/assets/img/posts/love-of-coding-hero.png)
 
 I've always thought there are two kinds of joy in software.
 
