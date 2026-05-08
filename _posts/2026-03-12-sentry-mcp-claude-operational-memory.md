@@ -26,7 +26,7 @@ I wrote a simple audit prompt that lives in the repo. When I run it, Claude:
 4. Flags the real problems: new bugs, performance regressions, patterns I hadn’t noticed
 5. Writes new milestones for whatever deserves attention
 
-That last step is the one that changed things for me. Instead of ending with "here’s what’s wrong," it ends with "here’s the milestone to fix it." Same format I use for my [overnight agent runs](/dev/ai/2026/02/02/overnight-agent-runs.html). Which means I can go from Sentry alert to implemented fix without writing specs by hand.
+That last step is the one that changed things for me. Instead of ending with "here’s what’s wrong," it ends with "here’s the milestone to fix it." Same format I use for my [overnight agent runs](/vibe-shipping-diary/posts/overnight-agent-runs/). Which means I can go from Sentry alert to implemented fix without writing specs by hand.
 
 ## What it actually looks like
 
