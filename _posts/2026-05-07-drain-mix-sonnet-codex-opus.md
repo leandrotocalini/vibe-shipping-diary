@@ -6,7 +6,7 @@ slug: drain-mix-sonnet-codex-opus
 categories: [dev, ai]
 tags: [agents, claude-code, codex, workflow, shipping]
 image: /assets/img/posts/drain-mix-sonnet-codex-opus-hero.png
-author: "Leandro Tocalini Joerg"
+author: leandrotocalini
 ---
 
 For a while, my overnight loop was a single agent doing everything. One model picked up the next milestone, planned it, wrote the code, ran the checks, committed, pushed. It worked. It also drained context, drained money, and drained me when I had to debug what it had done wrong six steps back.

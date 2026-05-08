@@ -6,7 +6,7 @@ date: 2026-05-07 10:00:00 -0300
 categories: [ai, development]
 tags: [knowledge-base, agents, workflow, wiki, writing]
 image: /assets/img/posts/the-wiki-is-the-operating-system-hero.png
-author: "Leandro Tocalini Joerg"
+author: leandrotocalini
 ---
 
 Karpathy posted a thing a while back about LLM knowledge bases — raw sources go in a folder, an agent compiles them into a wiki, you query the wiki later. I read it, shrugged, and a week later I had one.
